@@ -18,7 +18,7 @@ const App = () => {
                 <h1>Increment / Decrement Counter</h1>
                 <p>Using React and Redux</p>
               </div>
-            <div className=''>
+            <div className='mt-2'>
                 
                 <input type='text' className='form-control col-md-3 mx-auto' name='quantity' value = {myState}  />
                 <a onClick={ () => dispatch(decNumber()) } title='Increment' className='btn mx-1 px-4 btn-primary' >
