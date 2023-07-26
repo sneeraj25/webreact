@@ -13,6 +13,21 @@
   }
 }
 
+input[type="text"] {
+  padding: 15px;
+}
+
+.form-control{
+  width: 25%  !important;
+}
+
+.btn {
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  padding: 15px 25px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
